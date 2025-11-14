@@ -2,15 +2,25 @@
 
 ## QUESTION:
 Lovely is learning java basics, can you teach her the different types of datatypes in java? Write a program that uses all datatypes and print them all.
+
 Input Format:
+
 byte - 24
+
 short - 11000
+
 int - 1,34,500
+
 long - 24,23,10,34
+
 float - 24.20
+
 double - 1,30,000.80
+
 boolean - true/false
+
 char - 'u'
+
 String -"Heyyy, Lovely, Let's learn java!"
 
 ## AIM:
@@ -97,5 +107,6 @@ public class Main {
 
 ## RESULT:
 Thus,the program executed successfully and printed all the datatypes with their values.
+
 
 
