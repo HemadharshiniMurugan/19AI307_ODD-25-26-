@@ -1,60 +1,85 @@
 # Ex.No:1(B) CONDITIONAL STATEMENT
 
 ## QUESTION:
-In a magical building, an elevator behaves oddly:
+In a haunted house, lights turn on or off based on the hour of entry:
 
-If the floor number is divisible by 3 and 5, it says "Skipped".
+If the hour is even and between 2 and 6 (inclusive), lights flicker.
 
-If the floor number is divisible by 3 only, it says "Beware!".
+If the hour is odd and between 7 and 11, lights stay off.
 
-If the floor number is divisible by 5 only, it says "Blessings!".
+If the hour is 12, lights turn red.
 
-Otherwise, it announces the floor number - print - "Floor {number}" .
+Otherwise, the house is dark.
 
-Write a Java program to simulate this elevator logic for a given floor number.
 
 ## AIM:
-To develop a Java program that simulates the behavior of a magical elevator by checking a given floor number and printing a special message based on its divisibility by 3 and/or 5.
+To write a Java program that uses conditional statements to determine the state of lights in a haunted house based on the hour of entry.
 
 ## ALGORITHM :
-1. Read the floor number from the user.
-2. Check if the number is divisible by both 3 and 5.
-3. If true, print "Skipped".
-4. Else check if divisible by 3 or 5 and print the respective message.
-5. Else print "Floor {number}".
+1. Start the program.
+
+2. Import the necessary package java.util.*.
+
+3. Create a Scanner object to read the hour input from the user.
+
+4. Read the hour as an integer.
+
+5. Check if the hour is even and between 2 and 6 (inclusive):
+
+6. Display “Lights flicker”.
+
+7. Else if the hour is odd and between 7 and 11:
+
+8. Display “Lights stay off”.
+
+9. Else if the hour is 12:
+
+10. Display “Lights turn red”.
+ 
+11. Display “The house is dark”.
+
+12. End the program.
 
 ## PROGRAM:
  ```
 /*
 Program to implement a conditional statement using Java
-Developed by: Hemadharshini M
-RegisterNumber: 212222040053
+Developed by: Abinaya A
+RegisterNumber: 212223040003 
 */
 ```
 
-## SOURCE CODE:
+## Sourcecode.java:
 ```
 import java.util.*;
-public class Main
+public class Demo
 {
-    public static void main(String[] args)
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        int num=sc.nextInt();
-        if(num%3==0 && num%5==0) System.out.print("Skipped");
-        else if(num%3==0) System.out.print("Beware!");
-        else if(num%5==0) System.out.print("Blessings!");
-        else
-        System.out.print("Floor "+num);
+        int a=sc.nextInt();
+       if (a >= 2 && a <= 6 && a % 2 == 0) {
+            System.out.println("Lights flicker");
+        } else if (a>= 7 && a <= 11 && a % 2 != 0) {
+            System.out.println("Lights off");
+        } else if (a == 12) {
+            System.out.println("Lights red");
+        } else {
+            System.out.println("Dark house");
+        }
     }
 }
 ```
 
 ## OUTPUT:
+<img width="486" height="294" alt="Screenshot 2025-11-14 101547" src="https://github.com/user-attachments/assets/a64529b4-061c-436d-8ea4-55157b6e41b9" />
+
+
 
 
 
 ## RESULT:
-Thus,the program correctly displays “Skipped”, “Beware!”, “Blessings!”, or “Floor <number>” based on the floor number’s divisibility.
+Thus, the Java program to implement conditional statements for the haunted house lighting system was successfully executed.
+
 
 
