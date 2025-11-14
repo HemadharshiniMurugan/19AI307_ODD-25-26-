@@ -30,6 +30,10 @@ Program to implement a conditional statement using Java
 Developed by: Hemadharshini M
 RegisterNumber: 212222040053
 */
+```
+
+## SOURCE CODE:
+```
 import java.util.*;
 public class Main
 {
@@ -46,15 +50,11 @@ public class Main
 }
 ```
 
-## SOURCE CODE:
-
-
-
 ## OUTPUT:
 
 
 
 ## RESULT:
-
+Thus,the program correctly displays “Skipped”, “Beware!”, “Blessings!”, or “Floor <number>” based on the floor number’s divisibility.
 
 
