@@ -40,6 +40,11 @@ Program to implement variables and Operators using Java
 Developed by: Hemadharshini M
 RegisterNumber: 212222040053
 */
+
+```
+
+## Sourcecode.java:
+```
 import java.util.*;
 public class Main
 {
@@ -69,37 +74,6 @@ public class Main
     }
 }
 ```
-
-## Sourcecode.java:
-```
-public class Main {
-    public static void main(String[] args) {
-
-        byte b = 24;
-        short s = 11000;
-        int i = 134500;
-        long l = 24231034L;
-
-        float f = 24.20f;
-        double d = 130000.80;
-
-        boolean flag = true;
-        char ch = 'u';
-
-        String msg = "Heyyy, Lovely, Let's learn java!";
-
-        System.out.println("Byte value: " + b);
-        System.out.println("Short value: " + s);
-        System.out.println("Int value: " + i);
-        System.out.println("Long value: " + l);
-        System.out.println("Float value: " + f);
-        System.out.println("Double value: " + d);
-        System.out.println("Boolean value: " + flag);
-        System.out.println("Char value: " + ch);
-        System.out.println("String value: " + msg);
-    }
-}
-```
 ## OUTPUT:
 <img width="1377" height="799" alt="image" src="https://github.com/user-attachments/assets/1f9fae82-e549-4efe-b0a3-f39f6dcadd22" />
 
@@ -107,6 +81,7 @@ public class Main {
 
 ## RESULT:
 Thus,the program executed successfully and printed all the datatypes with their values.
+
 
 
 
