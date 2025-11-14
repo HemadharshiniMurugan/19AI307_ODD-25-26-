@@ -2,7 +2,9 @@
 
 ## QUESTION:
 In a magical building, an elevator behaves oddly:
+
 If the floor number is divisible by 3 and 5, it says "Skipped".
+
 If the floor number is divisible by 3 only, it says "Beware!".
 
 If the floor number is divisible by 5 only, it says "Blessings!".
@@ -44,4 +46,5 @@ RegisterNumber:
 
 
 ## RESULT:
+
 
