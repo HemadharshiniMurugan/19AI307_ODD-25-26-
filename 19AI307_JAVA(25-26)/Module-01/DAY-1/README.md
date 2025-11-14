@@ -61,6 +61,7 @@ public class Main
 ```
 
 ## Sourcecode.java:
+```
 public class Main {
     public static void main(String[] args) {
 
@@ -88,7 +89,7 @@ public class Main {
         System.out.println("String value: " + msg);
     }
 }
-
+```
 ## OUTPUT:
 <img width="1377" height="799" alt="image" src="https://github.com/user-attachments/assets/1f9fae82-e549-4efe-b0a3-f39f6dcadd22" />
 
@@ -96,4 +97,5 @@ public class Main {
 
 ## RESULT:
 Thus,the program executed successfully and printed all the datatypes with their values.
+
 
