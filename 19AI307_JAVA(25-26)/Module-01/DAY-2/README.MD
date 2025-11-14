@@ -1,8 +1,15 @@
 # Ex.No:1(B) CONDITIONAL STATEMENT
 
 ## QUESTION:
+In a magical building, an elevator behaves oddly:
+If the floor number is divisible by 3 and 5, it says "Skipped".
+If the floor number is divisible by 3 only, it says "Beware!".
 
+If the floor number is divisible by 5 only, it says "Blessings!".
 
+Otherwise, it announces the floor number - print - "Floor {number}" .
+
+Write a Java program to simulate this elevator logic for a given floor number.
 ## AIM:
 
 
@@ -37,3 +44,4 @@ RegisterNumber:
 
 
 ## RESULT:
+
