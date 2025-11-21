@@ -1,4 +1,4 @@
-# Ex.No:5(A) INPUTSTREAMREADER 
+# Ex.No:5(A) INPUT STREAM READER 
 
 ## QUESTION:
 Write a Java program to write characters to a file using FileWriter.
@@ -55,6 +55,7 @@ public class FileWriteExample {
 
 ## RESULT:
 The program successfully writes the entered text into output.txt using FileWriter.
+
 
 
 
