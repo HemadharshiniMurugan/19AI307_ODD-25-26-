@@ -92,4 +92,3 @@ The program successfully swaps the two integers inside a synchronized block and 
 
 
 
-00
